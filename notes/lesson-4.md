@@ -151,7 +151,7 @@ y = x**2
 print(y.grad_fn)
 ```
    Gives: `<PowBackward0 object at 0x7f7ea8231a58>`
-
+  *LOSS ALWAYS DEPENDS UPON WEIGHTS AND BIAS*
 ## Part 4 - Fashion-MNIST
 
 ```python
